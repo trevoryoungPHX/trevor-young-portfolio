@@ -1,0 +1,21 @@
+<div class="wrap">
+<nav>
+  <ul class="primary">
+    <li>
+      <a href="">Follow</a>
+      <ul class="sub">
+        <li><a target="_blank" href="https://www.twitter.com/trevoryoungPHX"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        <li><a target="_blank" href="https://github.com/trevoryoungPHX"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#connectTarget">Connect</a>
+      <ul class="sub">
+        <li><a href="mailto:trevoryoung.web@gmail.com"><b><i class="fa fa-envelope" aria-hidden="true"></i> </b>trevoryoung.web@gmail.com</a></li>
+        <li><a target="_blank" href="https://www.google.com/maps/place/Galvanize+-+Phoenix/@33.4398605,-112.06913,17z/data=!3m1!4b1!4m5!3m4!1s0x872b11f414a2c7f9:0xcb59c53c5b9b566a!8m2!3d33.439856!4d-112.066936"><i class="fa fa-map-marker" aria-hidden="true"></i> Galvanize Phoenix</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/trevoryoungphx/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
