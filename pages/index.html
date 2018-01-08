@@ -4,13 +4,9 @@
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Bungee+Hairline|Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="../style/photos/tab.png" />
     <meta charset="utf-8">
-    <script src="./script.js"></script>
     <title>Trevor Young</title>
   </head>
   <body>
@@ -35,6 +31,7 @@
       </ul>
     </nav>
     </div>
+      <div id="pageScroll splash" data-section-name="splash">
       <div class = "splashPage">
         <div class = "fixMargin"></div>
           <div class = "headerBackground"><br>
@@ -46,6 +43,8 @@
             <p id = "viewMore"> Portfolio <i class="fa fa-arrow-circle-down" aria-hidden="true"></i> </p>
           </div>
       </div>
+    </div>
+    <div id="pageScroll portfolioPage" data-section-name="portfolioPage">
     <div class = "portfolioPage">
       <h1 id = "subheader">Latest Work</h1>
       <div class ="line5"></div>
@@ -83,7 +82,7 @@
             <div class="carousel-caption d-none d-md-block">
             <div class = "infoBackground">
             <h3 class="portfolioTitle">gForum</h3>
-            <button  id='removedEdges' class="btn btn-outline-primary">Get Organized</button>
+            <a href="https://g66-gforum.herokuapp.com/"><button id='removedEdges' class="btn btn-outline-primary">Get Organized</button></a>
             <p id = "projectDescription">POSTGRESQL DATABASE INTEGRATION | USER ENCRYPTION | API INTEGRATION</p>
             </div>
           </div>
@@ -109,6 +108,8 @@
         </a>
       </div>
     </div>
+  </div>
+  <div id="pageScroll technology" data-section-name="technology">
     <div class="technology">
       <h1 id = "subheader2">Technology</h1>
       <div class ="line3"></div>
@@ -126,13 +127,14 @@
         <li class="flex-item"><img src="../style/technology/mongo.png" alt="MongoDB" title = "MongoDB"></li>
       </ul>
     </div>
+  </div>
+  <div id="pageScroll contact" data-section-name="contact">
     <div class = "contact">
       <div class ="connectDiv">
         <h1 id = "subheader2">Connect</h1>
         <div class ="line3"></div><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.3626951541405!2d-112.06912468480091!3d33.439855980777025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b11f414a2c7f9%3A0xcb59c53c5b9b566a!2sGalvanize+-+Phoenix!5e0!3m2!1sen!2sus!4v1515270893477" border-radius="6px" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
-        <p class = "descriptionText">I am a full-stack software engineer living in Phoenix, AZ with a passion for custom & responsive styling, back-end application management, breakfast burritos and the great outdoors (especially in AZ!). Whether you need a <b>frontend designer</b> or a <b>full-stack developer</b>, I have the capabilities to help you achieve your goals.</p>
-        <h3 class = "descriptionText2">Let's Work Together. - Trevor<br></h3>
+        <p class = "descriptionText">I am a full-stack software engineer living in Phoenix, AZ with a passion for custom & responsive styling, back-end application management, breakfast burritos and the great outdoors (especially in AZ!). Whether you need a <b>frontend designer</b> or a <b>full-stack developer</b>, I have the capabilities to help you achieve your goals. Let's work together! - Trevor</p>
         <ul class="flex-container2">
           <li class="flex-item2">
             <a href="mailto:trevoryoung.web@gmail.com"><button class="ghost"><i class="fa fa-envelope-o"></i> contact</button></a>
@@ -143,16 +145,20 @@
         </div>
       </div>
     </div>
+  </div>
     <div class="footer">
-      <div id="flexHolder">
         <ul class="flex-container1">
           <a target="_blank" href="https://www.twitter.com/trevoryoungPHX"><li class="flex-item1"><i id="footerIcons" class="fa fa-twitter" aria-hidden="true"></i></li></a>
           <a target="_blank" href="https://www.linkedin.com/in/trevoryoungphx/"><li class="flex-item1"><i id="footerIcons" class="fa fa-linkedin" aria-hidden="true"></i></li></a>
           <a target="_blank" href="https://github.com/trevoryoungPHX"><li class="flex-item1"><i id="footerIcons" class="fa fa-github" aria-hidden="true"></i></li></a>
         </ul>
         <h4 class = "descriptionText3">trevdev.co</h4>
-        <p class="footerText"><i>splash</i> photo by <a href="https://unsplash.com/@ajcolores">@ajcolores</a></p>
-        <p class="footerText"><i>connect</i> photo by <a href="https://unsplash.com/@jonatanhernandez">@jonatanhernandez</a></p>
-        </div>
+        <p class="footerText">Unsplash <i>splash</i> photo by @ajcolores</p>
+        <p class="footerText">Unsplash <i>connect</i> photo by @jonatanhernandez</p>
+      </div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="../Scrollify/jquery.scrollify.js"></script>
 </body>
 </html>

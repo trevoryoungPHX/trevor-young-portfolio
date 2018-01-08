@@ -547,7 +547,8 @@ ul.primary li:hover > a{
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: center;
-  padding: 0;
+  padding-left: 9px;
+  padding-right: 0px;
   margin-bottom: 0;
 }
 
@@ -669,12 +670,12 @@ ul.primary li:hover > a{
 }
 
 .picture2 {
-  width: 80%;
+  width: 100%;
   margin-top: 20px;
   border-radius: 5px;
-  border: 2px solid black;
 }
 
 .footerText {
   margin-bottom: 0;
+  font-size: 10px;
 }
