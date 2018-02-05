@@ -57,7 +57,7 @@ li a {
 }
 
 .splashPage {
-  background: black url("./photos/phoenix2.jpeg") no-repeat center center fixed ;
+  background: black url("./photos/phoenix2.jpeg") no-repeat;
   background-size: cover;
   border-bottom: 1px solid #262626;
 }
@@ -225,7 +225,8 @@ li a {
   opacity: .6;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 95%;
+  min-width: 350px;
+  width: 75%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -387,7 +388,7 @@ ul.primary li:hover > a{
 }
 
 #carouselExampleControls {
-  width: 95%;
+  width: 75%;
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
@@ -497,12 +498,11 @@ ul.primary li:hover > a{
   margin-left: auto;
   margin-right: auto;
   background-color: white;
-  opacity: .65;
   -webkit-box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.58);
   -moz-box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.58);
   box-shadow: 1px 1px 20px 4px rgba(0,0,0,0.58);
   height: 100%;
-  width: 95%;
+  width: 75%;
   font-family: 'Open Sans Condensed', sans-serif;;
   font-size: 20px;
   font-weight: bold;
